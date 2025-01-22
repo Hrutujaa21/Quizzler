@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		710743492D4152A90013D2E9 /* README 2.md in Resources */ = {isa = PBXBuildFile; fileRef = 710743482D4152A90013D2E9 /* README 2.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		710743482D4152A90013D2E9 /* README 2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README 2.md"; sourceTree = "<group>"; };
 		711D458D2D412BB4009C2914 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		711D45842D412BB4009C2914 = {
 			isa = PBXGroup;
 			children = (
+				710743482D4152A90013D2E9 /* README 2.md */,
 				711D458F2D412BB4009C2914 /* Quizzler */,
 				711D458E2D412BB4009C2914 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710743492D4152A90013D2E9 /* README 2.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
