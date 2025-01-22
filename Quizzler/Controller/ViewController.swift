@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     @objc func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
         progressBar.progress = quizBrain.getProgress()
+        scoreLabel.text = "Score: \(quizBrain.getScore())"
         
         trueButton.backgroundColor = .clear
         falseButton.backgroundColor = .clear
